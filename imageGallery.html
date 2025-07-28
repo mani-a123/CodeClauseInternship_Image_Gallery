@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Elegant Image Gallery</title>
+  <link rel="stylesheet" href="imageGallery.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Elegant Image Gallery</h1>
+
+    <input type="text" id="searchInput" placeholder="Search by category (e.g., nature, city, animals)" />
+
+    <div class="filter-buttons">
+      <button class="active" data-filter="all">All</button>
+      <button data-filter="nature">Nature</button>
+      <button data-filter="city">City</button>
+      <button data-filter="animals">Animals</button>
+    </div>
+
+    <div class="gallery" id="gallery"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
